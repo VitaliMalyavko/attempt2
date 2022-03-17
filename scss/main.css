@@ -15,13 +15,13 @@ header {
   border-bottom: 1px solid #E0E0E0;
 }
 
-.nav-menu {
+.tools {
   width: 100%;
   height: 40px;
   background: #F4F4F4;
 }
 
-.nav-menu__links {
+.tools__links {
   list-style-type: none;
   display: -ms-grid;
   display: grid;
@@ -32,7 +32,7 @@ header {
   margin-left: 76%;
 }
 
-.nav-menu__links a {
+.tools__links a {
   text-decoration: none;
   color: #AAAAAA;
   font-size: 12px;
@@ -40,7 +40,7 @@ header {
   padding: 10px 0px;
 }
 
-.nav-menu__links select {
+.tools__links select {
   background-color: #F4F4F4;
   width: 43px;
   border-radius: 5px;
@@ -48,7 +48,7 @@ header {
   color: #AAAAAA;
 }
 
-.sub-menu {
+.nav-menu {
   width: 100%;
   margin: 0% 5%;
   height: 99px;
@@ -61,11 +61,11 @@ header {
           align-items: center;
 }
 
-.sub-menu__logo-img {
+.nav-menu__logo-img {
   padding: 25px 214px 24px 48px;
 }
 
-.sub-menu__links {
+.nav-menu__links {
   list-style-type: none;
   display: -ms-grid;
   display: grid;
@@ -76,7 +76,7 @@ header {
           column-gap: 100px;
 }
 
-.sub-menu__links a {
+.nav-menu__links a {
   text-decoration: none;
   color: black;
   font-size: 12px;
@@ -84,7 +84,7 @@ header {
   margin: 43px 0px;
 }
 
-.sub-menu__cart {
+.nav-menu__cart {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -94,13 +94,17 @@ header {
   margin-right: 22%;
 }
 
-.sub-menu__cart__basket {
-  margin-left: 12%;
+.nav-menu__cart__basket {
+  margin-left: 14%;
 }
 
-.sub-menu__cart a {
+.nav-menu__cart a {
   color: #000000;
   text-decoration: none;
+  margin-left: 3%;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
 }
 
 .description__pic {
