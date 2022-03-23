@@ -152,6 +152,92 @@ header {
   margin-top: 9px;
 }
 
+.brand-item {
+  margin: 215px 12% 190px 12%;
+}
+
+.brand-item__picture {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[6];
+      grid-template-columns: repeat(6, 1fr);
+  row-gap: 49px;
+}
+
+.brand-item__caption {
+  font-size: 48px;
+  line-height: 48px;
+  text-align: center;
+  color: #1A1A1A;
+  margin-bottom: 27px;
+}
+
+.brand-item__text {
+  font-size: 24px;
+  line-height: 36px;
+  text-align: center;
+  color: #4A4A4A;
+  margin-bottom: 125px;
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper img {
+  width: 93.3%;
+  margin: 0 auto;
+  display: block;
+}
+
+.swiper-slide {
+  opacity: 1;
+}
+
+.swiper-slide-active {
+  opacity: 1;
+}
+
+.swiper .swiper-button-prev::after,
+.swiper .swiper-button-next::after {
+  color: #fff;
+  height: 42px;
+  width: 23px;
+}
+
+.swiper .swiper-button-prev::after {
+  margin-right: -104px;
+}
+
+.swiper .swiper-button-next::after {
+  margin-left: -104px;
+}
+
+.swiper .swiper-pagination {
+  position: relative;
+  margin-top: 24px;
+}
+
+.swiper-slide-next img {
+  margin-left: -48px;
+}
+
+.swiper-slide-prev img {
+  margin-right: -48px;
+}
+
+@font-face {
+  font-family: swiper-icons;
+  font-weight: 400;
+  font-style: normal;
+  src: url();
+}
+
+:root {
+  --swiper-theme-color:#46856E;
+}
+
 /*
 
 .brand-item{

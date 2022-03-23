@@ -1,0 +1,24 @@
+.brand-item {
+    margin: 215px 12% 190px 12%;
+
+    &__picture {
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+        row-gap: 49px;
+    }
+    &__caption {
+        font-size: 48px;
+        line-height: 48px;
+        text-align: center;
+        color: $dark-desc;
+        margin-bottom: 27px;
+    }
+    &__text { 
+        font-size: 24px;
+        line-height: 36px;
+        text-align: center;
+        color: $grey;
+        margin-bottom: 125px;
+        
+    }
+}

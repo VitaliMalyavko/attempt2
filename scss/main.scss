@@ -5,9 +5,11 @@
 }
 
 $dark: #000;
-$dark-desc: #1A1A1A;  
+$dark-desc: #1A1A1A; 
+$grey: #4A4A4A; 
 $blonde: #AAA;
 $blonde-lite: #F4F4F4;
+
 
 .wrapper {
     max-width: 1440px;
@@ -106,6 +108,10 @@ header {
 
 
 @import "styledesc";
+
+@import "stylebrand";
+
+@import "swiper-slider";
 
 
 /*
