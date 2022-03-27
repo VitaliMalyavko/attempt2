@@ -1,0 +1,39 @@
+.description {
+    &__pic {
+        margin-left: 4%;
+        margin-top: 49px;
+    }
+    &__caption {
+        color: $dark-desc;
+        font-size: 48px;
+        line-height: 58px;
+        width: 25%;
+        margin: 82px 136px 208px 175px;
+        display: inline-block;
+    }
+    &__text {
+        color: $blonde;
+        font-size: 24px;
+        line-height: 40px;
+        width: 40%;
+        display: inline-block;
+    }
+    &__card {
+        margin-left: 5%;
+        display: grid;
+        width: 83%;
+        column-gap: 2%;
+        row-gap: 32px;
+        grid-template-columns: repeat(2, 1fr);
+        padding: 0px 48px 32px 48px;
+        
+        &__card-block__text {
+            color: $dark-desc;      
+            font-size: 24px;
+            line-height: 28px;
+            margin-top: 9px;
+        }
+                
+    }
+
+}
