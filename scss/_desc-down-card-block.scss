@@ -1,0 +1,93 @@
+.description-down {
+    background: url(../images/women.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    &__block {
+        padding-left: 12%;
+
+        &__rating-img {
+            margin-top: 120px;
+        }
+        &__text {
+            color: $white; 
+            font-size: 24px;
+            line-height: 32px;
+            width: 20%;
+            margin-top: 7px;
+            margin-bottom: 8px;
+
+        }
+    }
+    &__link {
+        color: $white;
+        text-decoration: none;
+        &__text {
+            margin-left: 12%;
+            font-size: 16px;
+            line-height: 12px;
+            letter-spacing: 0.75px;
+            margin-top: 39px;
+            padding-bottom: 129px;
+
+        }
+      
+    }
+}
+
+.card-block {
+    max-width: 90%;
+    padding-left: 5%;
+    &__text {
+        &__description {
+            color: $grey-lite;
+            font-size: 46px;
+            line-height: 52px;
+            width: 69%;
+            padding-left: 16%;
+            margin-top: 240px;
+            margin-bottom: 25px;
+        }
+
+        &__bolt {
+            color: $dark;
+            padding-left: 16%;
+            font-size: 46px;
+            line-height: 52px;
+            margin-bottom: 135px;
+
+        }
+    }
+    &__items {
+        &__img-text {
+        display: flex;
+        flex-wrap: wrap;
+
+            &__img-middle {
+                margin-top: 64px;
+                margin-bottom: 64px;
+            }
+            &__text-cap {
+                width: 23%;
+                margin-left: 9%;
+                margin-right: 9%;
+                & h5 {
+                    color: $dark-desc;
+                    font-size: 32px;
+                    line-height: 36px;
+                    margin-top: 216px;
+
+                }
+                & p {
+                    color: $grey-lite;
+                    margin-top: 27px;
+                    font-size: 16px;
+                    line-height: 24px;
+                }
+            }
+        }
+    }
+    &__img {
+        margin-bottom: 286px;
+        margin-top: 288px;
+    }
+}

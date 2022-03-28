@@ -1,6 +1,4 @@
 .content-cards {
-
-    
     width: 91rem;
     margin-top: 83px;
     margin-bottom: 240px;
@@ -8,7 +6,7 @@
 
     &__caption {
         max-width: 75%;
-        color: #1A1A1A;
+        color: $dark-desc;
         font-size: 48px;
         line-height: 56px;
         text-align: left;
@@ -16,7 +14,7 @@
 
     }
     &__text {
-        color: #46856E;
+        color: $green;
         font-size: 14px;
         line-height: 12px;
         letter-spacing: 0.75px;
@@ -37,14 +35,14 @@
             &__caption {
                 margin-top: 26px;
                 margin-bottom: 18px;
-                color: #1A1A1A;
+                color: $dark-desc;
                 font-size: 24px;
                 line-height: 24px;
                 text-align: left;
 
             }
             &__text {
-                color: #AAAAAA;
+                color: $blonde;
                 font-size: 16px;
                 line-height: 24px;
                 text-align: left;
